@@ -9,3 +9,4 @@ copilotchat: https://github.com/CopilotC-Nvim/CopilotChat.nvim
 vscode color: https://github.com/Mofiqul/vscode.nvim
 
 init lua file contents are what should be used if you want a colorscheme to persist (in our case its vscode).
+to run the copilot plugins, you will need the latest version of node js.
