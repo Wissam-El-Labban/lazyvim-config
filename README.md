@@ -1,6 +1,6 @@
 # lazyvim-config
 
-preferred plugins and init lua file to get all plugins at once
+preferred plugins and init lua file. This repository is simply to get all plugin configurations at once.
 
 credit for the plugins themselves goes to the authors:
 
