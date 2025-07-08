@@ -13,7 +13,19 @@ vim.o.background = "dark"
 -- making sure that treesitter (a language parser meant to enhance the coding experience) is always up to date and is ready for the languages we want.
 require("lazy").setup({
 	{ "nvim-treesitter/nvim-treesitter", branch = "master", lazy = false, build = ":TSUpdate" },
-	ensure_installed = { "c", "lua", "vim", "vimdoc", "query", "markdown", "markdown_inline", "python3" },
+	ensure_installed = {
+		"c",
+		"lua",
+		"vim",
+		"vimdoc",
+		"query",
+		"markdown",
+		"markdown_inline",
+		"python3",
+		"java",
+		"cpp",
+		"html",
+	},
 })
 
 -- for those that are interested in practicing leetcode in python3, uncomment the below lines:
