@@ -12,7 +12,7 @@ neotree: https://github.com/nvim-neo-tree/neo-tree.nvim
 jupyter: https://github.com/luk400/vim-jukit
 treesitter: https://github.com/nvim-treesitter/nvim-treesitter
 leetcode: https://github.com/kawre/leetcode.nvim
-
+toggleterm: https://github.com/akinsho/toggleterm.nvim
 
 To disable a plugin: add enabled = false in the same bracket that imports the plugin. 
 example:
