@@ -13,6 +13,7 @@ jupyter: https://github.com/luk400/vim-jukit
 treesitter: https://github.com/nvim-treesitter/nvim-treesitter
 leetcode: https://github.com/kawre/leetcode.nvim
 toggleterm: https://github.com/akinsho/toggleterm.nvim
+barbeque: https://github.com/utilyre/barbecue.nvim?tab=readme-ov-file
 
 To disable a plugin: add enabled = false in the same bracket that imports the plugin. 
 example:
