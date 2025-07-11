@@ -5,7 +5,7 @@
 Credit for the plugins themselves goes to the authors:
 
 * copilot: https://github.com/github/copilot.vim
-* opilotchat: https://github.com/CopilotC-Nvim/CopilotChat.nvim
+* copilotchat: https://github.com/CopilotC-Nvim/CopilotChat.nvim
 * vscode color: https://github.com/Mofiqul/vscode.nvim
 * debugger: https://github.com/mfussenegger/nvim-dap?tab=readme-ov-file, https://github.com/mfussenegger/nvim-dap-python (plugin config:https://github.com/NeuralNine/config-files/blob/master/.config/nvim/lua/plugins/nvim-dap.lua )
 * neotree: https://github.com/nvim-neo-tree/neo-tree.nvim

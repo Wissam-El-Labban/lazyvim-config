@@ -37,3 +37,10 @@ require("lazy").setup({
 --require("leetcode").setup({
 --  lang = "python3",
 --})
+
+-- ssh -i "key location" -L 9999:localhost:9999 -L 9998:localhost:9998 -Y user@{ip addr} is a way to use codeuim chat over ssh after uncommenting the lines below
+-- you can choose different ports on your machine if some are already in use
+--vim.g.codeium_port_config = {
+--  web_server = 9999,
+--  chat_client = 9998,
+--}
