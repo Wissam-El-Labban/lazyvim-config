@@ -10,16 +10,6 @@ vim.o.background = "dark"
 --require("dap-python").setup("~/environments/jupiter/bin/python") just an example of a python vrtual environment to include DAP adapter. pip install debugpy
 -- :lua require("dap-python").setup("~/environments/jupiter/bin/python") is what you can do to choose a python environment to debug from while already inside neovim
 
--- setting a keymap for some dapui convenience
--- leader du "to turn the debugger UI on or off"
-vim.keymap.set("n", "<leader>du", function()
-	require("dapui").toggle()
-end)
--- leader tb "to toggle Breakpoint"
-vim.keymap.set("n", "<leader>tb", function()
-	require("dap").toggle_breakpoint()
-end, { desc = "DAP: Toggle Breakpoint" })
-
 --setting up keymaps for neotree
 vim.keymap.set("n", "<leader>e", "<cmd>Neotree toggle<CR>", { desc = "Toggle Neo-tree" })
 --setting up keymaps for ToggleTerm (you will still need the toggleterm (number) command to open a terminal next to it)
